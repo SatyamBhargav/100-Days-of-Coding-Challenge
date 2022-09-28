@@ -1,3 +1,9 @@
+/*
+ * Question of the Day
+ * https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true
+ * 
+ */
+
 import java.util.Scanner;
 import java.lang.Math;
 public class javaLoopII {
