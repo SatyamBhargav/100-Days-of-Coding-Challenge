@@ -5,7 +5,7 @@
 
 import java.util.*;
 
-public class StirngTokens {
+public class StringTokens {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
