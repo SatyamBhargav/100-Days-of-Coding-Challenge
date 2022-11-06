@@ -1,0 +1,40 @@
+Topic : Linked List
+Question : Create a singly linked list and perform insertion, deletetion & display.
+
+In this program we create a singly linked list 
+
+What is linked list ?
+
+Linked List can be defined as collection of objects called nodes that are randomly stored in the memory.
+A node contains two fields i.e. data stored at that particular address and the pointer which contains the address of the next node in the memory.
+The last node of the list contains pointer to the null.
+
+Here first create a class name Node using which we create a container for the linked list which will contain the value and the pointer of a specific node.
+
+Insertion is done at :-
+# insertion at beginning
+# insertion at mid
+# insertion at end
+
+Deletion is done at :-
+# deletion at beginning
+# deletion at mid
+# deletion at end
+
+Then tere is display function which display the entire linked list
+
+# Sample input
+6
+5
+3
+10
+100     3       where 100 - value & 3 - index
+
+# Sample output
+
+6 -> 5 -> 100 -> 3 -> 10 -> END
+
+
+
+
+
