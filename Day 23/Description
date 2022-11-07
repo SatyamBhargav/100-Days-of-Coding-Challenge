@@ -1,0 +1,43 @@
+Topic: Singly Circular Linked List
+Question: Create a singly Circular linked list and perform insertion, deletetion & display.
+
+In this program we create a singly circular linked list 
+
+What is circular linked list ?
+
+In a circular Singly linked list, the last node of the list contains a pointer to the first node of the list. We can have circular singly linked list as well as circular doubly linked list.
+
+We traverse a circular singly linked list until we reach the same node where we started. The circular singly liked list has no beginning and no ending. There is no null value present in the next part of any of the nodes.
+
+Here first we create a class name Node using which we create a container for the linked list which will contain the value and the pointer of a specific node.
+
+Insertion is done at :-
+# insertion at beginning
+# insertion at mid
+# insertion at end
+
+Deletion is done at :-
+# deletion at beginning
+# deletion at mid
+# deletion at end
+
+Then tere is display function which display the entire linked list
+
+# Sample input
+7
+8
+9
+6
+5
+
+
+6
+5
+3
+10
+
+# Sample output
+
+7 -> 8 -> 9 -> 6 -> 5 -> END
+
+6 -> 5 -> 100 -> 3 -> 10 -> END
