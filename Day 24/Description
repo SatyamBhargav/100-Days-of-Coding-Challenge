@@ -1,0 +1,41 @@
+Topic: Doubly Linked List
+Question: Create a Doubly linked list and perform insertion, deletetion & display.
+
+In this program we create a singly circular linked list 
+
+What is Doubly linked list ?
+
+Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer).
+
+Here first we create a class name Node using which we create a container for the linked list which will contain the value and the pointer of a specific node.
+
+Insertion is done at :-
+# insertion at beginning
+# insertion at mid
+# insertion at end
+
+Deletion is done at :-
+# deletion at beginning
+# deletion at mid
+# deletion at end
+
+Then tere is display function which display the entire linked list
+
+# Sample input
+7
+8
+9
+6
+5
+
+
+6
+5
+3
+10
+
+# Sample output
+
+7 -> 8 -> 9 -> 6 -> 5 -> END
+
+6 -> 5 -> 100 -> 3 -> 10 -> END
