@@ -1,0 +1,21 @@
+Topic: Thread Synchronization
+Question: create a program for thread synchronization
+
+What is an synchronization ?
+
+Synchronization in Java is the capability to control the access of multiple threads to any shared resource.
+
+Java Synchronization is better option where we want to allow only one thread to access the shared resource.
+
+# Sample output
+
+1
+2
+3
+4
+5
+1
+2
+3
+4
+5
