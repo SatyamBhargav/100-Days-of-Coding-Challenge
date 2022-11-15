@@ -1,0 +1,33 @@
+Topic: Memory Management
+Question: Using Java program display Memory Management Best case
+
+What is Memory Management in OS?
+Memory is the important part of the computer that is used to store the data. Its management is critical to the computer system because the amount of main memory available in a computer system is very limited. At any time, many processes are competing for it. Moreover, to increase performance, several processes are executed simultaneously. For this, we must keep several processes in the main memory, so it is even more important to manage them effectively
+
+# Sample input
+
+Enter number of Blocks
+3
+Enter the 0 Block Size
+100
+Enter the 1 Block Size
+200
+Enter the 2 Block Size
+300
+Enter number of Process
+4
+Enter the 0 Block Size
+1
+Enter the 1 Block Size
+1
+Enter the 2 Block Size
+2
+Enter the 3 Block Size
+3
+
+# Sample output
+
+The process 0 allocated to 100
+The process 1 allocated to 200
+The process 2 allocated to 300
+The process 3 is not allocated
