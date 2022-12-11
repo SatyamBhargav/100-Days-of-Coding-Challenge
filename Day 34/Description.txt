@@ -1,0 +1,18 @@
+Topic: Binary Semaphore
+Question: Using Java program explain the working of Binary Semaphore
+
+What is File Writer?
+The binary semaphores are quite similar to counting semaphores, but their value is restricted to 0 and 1. 
+In this type of semaphore, the wait operation works only if semaphore = 1, and the signal operation succeeds when semaphore= 0. 
+It is easy to implement than counting semaphores.
+
+# Sample input/output
+
+A is in critical section
+A is out of critical section
+B is in critical section
+B is out of critical section
+C is in critical section
+C is out of critical section
+D is in critical section
+D is out of critical section
