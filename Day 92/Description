@@ -1,0 +1,9 @@
+Topic: File Writer
+Question: Using Java program explain the working of File Writer
+
+What is File Writer?
+It is an abstract class for writing to character streams. The methods that a subclass must implement are write(char[], int, int), flush(), and close(). Most subclasses will override some of the methods defined here to provide higher efficiency, functionality or both.
+
+# Sample input/output
+
+read and write from a file using File Writer
