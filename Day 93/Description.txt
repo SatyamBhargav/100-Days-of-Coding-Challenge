@@ -1,0 +1,29 @@
+Topic: Counting Semaphore
+Question: Using Java program explain the working of Counting Semaphore
+
+What is Counting Semaphore?
+This type of Semaphore uses a count that helps task to be acquired or released numerous times. 
+If the initial count = 0, the counting semaphore should be created in the unavailable state.
+
+# Sample input/output
+
+Starting B
+B is waiting for a permit.
+Starting A
+A is waiting for a permit.
+B gets a permit.
+B: -1
+B: -2
+B: -3
+B: -4
+B: -5
+B releases the permit.
+A gets a permit.
+A: -4
+A: -3
+A: -2
+A: -1
+A: 0
+A releases the permit.
+count: 0
+-
